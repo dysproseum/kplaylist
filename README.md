@@ -40,7 +40,7 @@ See [releases page](https://github.com/dysproseum/kplaylist-php7/releases) for p
 
 The goal of this project has always been to keep the original software running on modern platforms, only making changes necessary for PHP compatibility.
 
-Read more about themes & customization: [kptheme/README.md](kptheme/README.md)
+:arrow_right: Read more about themes & customization: [kptheme/README.md](kptheme/README.md)
 
 ## Installing kPlaylist
 
