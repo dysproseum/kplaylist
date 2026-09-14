@@ -1,14 +1,8 @@
-### The `kptheme` folder
+### The `kptheme` directory
 
-This folder is totally optional and kPlaylist will load default theming internally if it doesn't exist.
+_This directory is totally optional and kPlaylist will load default theming internally if it doesn't exist._
 
-Themes are placed in subfolders here, whose files can include:
-
-````
-Download design
-
-NB! These only work for the 1.8 release.
-````
+Place theme directories here to alter or enhance core behavior without modifying its files. Themes can include the following templates as well as supporting CSS and JS:
 
 | Template file | description |
 | ------------- | ----------- |
@@ -20,7 +14,7 @@ NB! These only work for the 1.8 release.
 | blackbox	    | The menu design (the boxes) |
 | detailedview	| Detailed album |
 
-Here are the included themes in an increasing order of complexity, changing the core behavior without modifying its files.
+Here are the included themes you can use as a starting point for making your own themes:
 
 ### Themes list
 
@@ -36,7 +30,7 @@ Here are the included themes in an increasing order of complexity, changing the 
 
 * **webamp_legacy:** because of the work done on HTML5 player, we can also integrate with the ~~winamp~~ webamp player.
 
-This is a great advancement! However, these players will reset when user navigates to another page to browse for more music.
+This is great, however, these players will reset when user navigates to another page to browse for more music.
 
 Enter the iframe players...
 
@@ -46,14 +40,18 @@ Enter the iframe players...
 
     the player now gets included in the parent window HTML so it can be dragged fullscreen.
 
+The user now gets instructed to visit iframe.php instead of index.php so the listing can be embedded as an iframe.
+
 ### Notes
 
-For randomization, make sure to set `kptheme/<theme_name>/randomizer.js` as "External JS" value.
+* Each user can set a theme under My -> Options -> Style.
+
+* For randomization, make sure to set `kptheme/<theme_name>/randomizer.js` as "External JS" value.
+
+* NB! These only work for the 1.8 release.
 
 ### Future Development
 
 Go make your own!
 
-Making the iframe themes was big inspiration in building Dysproseum Desktop.
-
-See it in action here: https://dysproseum.com/desktop/
+Making the iframe themes was a big inspiration in building Dysproseum Desktop. See it in action here: https://dysproseum.com/desktop/
