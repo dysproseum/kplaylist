@@ -21,6 +21,10 @@
 <?php print $player_head; ?>
 
 <script type="text/javascript">
+  let url = window.location.href; // - iframe.php
+  const resultWithSlash = url.substring(0, url.lastIndexOf("/") + 1);
+  const kplaylist_url = resultWithSlash;
+
   let theme = '';
   let player;
   let index;
