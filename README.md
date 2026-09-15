@@ -4,11 +4,11 @@ kPlaylist is a music database that you manage via the web. With kPlaylist you ca
   <img src="images/screenshots/kent.jpg" />
 </p>
 
-### Updates
+## Updates
 
 * PHP 8 support is here!
 
-### Project History
+## Project History
 
 | Date | Description |
 | ---- | ----------- |
@@ -36,27 +36,13 @@ kPlaylist is a music database that you manage via the web. With kPlaylist you ca
 
 See [releases page](https://github.com/dysproseum/kplaylist-php7/releases) for past releases.
 
----
-
-### Customization
+## Customization
 
 The goal of this project has always been to keep the original software running on modern platforms, only making changes necessary for PHP compatibility.
 
-However, new functionality can be added with themes:
+:arrow_right: Read more about themes & customization: [kptheme/README.md](kptheme/README.md)
 
-  - By default, kPlaylist creates **M3U playlists** that open in a media player like Winamp or VLC, as well as support for a flash player or jwplayer.
-  - To enable **native playback in the browser**, the `html5_player` or `webamp` themes can be set per-user under My -> Options -> Style.
-
-It's now easier to use kPlaylist from mobile devices (because I also use this in the car!)
-
-  - The mobile layout has been created for widths less than 768px.
-  - This requires setting `mobile.css` as the "Mobile CSS" value.
-
-You can find these options under Admin control -> Settings -> Customize.
-
----
-
-### Installing kPlaylist
+## Installing kPlaylist
 
 You will want to have a web server such as Apache or nginx, as well as a MySQL server already installed.
 
@@ -77,7 +63,7 @@ Upon first load in the browser, you are greeted with installation options.
 - If this does not work, you will instead need to create the database and user manually
 - Put settings in `kpconfig.php` and restart the installation using Existing Database
 
-#### Existing Database:
+#### Existing database:
 
 - This option will assume the MySQL user and database have already been created
 - Confirm the credentials are correct
@@ -95,7 +81,6 @@ Upon first load in the browser, you are greeted with installation options.
 
 Have fun listening to your music via the web ;-)
 
----
 
 ### More Resources
 

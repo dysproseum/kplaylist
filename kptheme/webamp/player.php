@@ -53,43 +53,43 @@ $player_head = <<<EOF
     },
     availableSkins: [
       {
-        url: "kptheme/webamp/skins/311-AMP_by_Jamie_2.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/311-AMP_by_Jamie_2.wsz",
         name: "311 Amp",
       },
       {
-        url: "kptheme/webamp/skins/Blue_Sacrem.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/Blue_Sacrem.wsz",
         name: "Blue Sacrem",
       },
       {
-        url: "kptheme/webamp/skins/Breedamp_-_Organica.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/Breedamp_-_Organica.wsz",
         name: "Breedamp - Organica",
       },
       {
-        url: "kptheme/webamp/skins/cute_penguin_skin.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/cute_penguin_skin.wsz",
         name: "Cute Penguin Skin",
       },
       {
-        url: "kptheme/webamp/skins/Ferrari_Winamp_Skin_v_02_03.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/Ferrari_Winamp_Skin_v_02_03.wsz",
         name: "Ferrari",
       },
       {
-        url: "kptheme/webamp/skins/FlyingCircle2000Worldedition.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/FlyingCircle2000Worldedition.wsz",
         name: "Flying Circle",
       },
       {
-        url: "kptheme/webamp/skins/FreeFall.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/FreeFall.wsz",
         name: "FreeFall",
       },
       {
-        url: "kptheme/webamp/skins/Frequency.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/Frequency.wsz",
         name: "Frequency",
       },
       {
-        url: "kptheme/webamp/skins/Game_Boy_Amp.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/Game_Boy_Amp.wsz",
         name: "Game Boy Amp",
       },
       {
-        url: "kptheme/webamp/skins/glass_one.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/glass_one.wsz",
         name: "Glass One",
       },
       {
@@ -97,19 +97,19 @@ $player_head = <<<EOF
         name: "Green Dimension V2",
       },
       {
-        url: "kptheme/webamp/skins/HelstegtPattegris.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/HelstegtPattegris.wsz",
         name: "Helstegt Pattegris",
       },
       {
-        url: "kptheme/webamp/skins/isaac_kearns.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/isaac_kearns.wsz",
         name: "Isaac Kearns",
       },
       {
-        url: "kptheme/webamp/skins/Knotty_Skin_By_Void.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/Knotty_Skin_By_Void.wsz",
         name: "Knotty Skin",
       },
       {
-        url: "kptheme/webamp/skins/LINK2PST.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/LINK2PST.wsz",
         name: "Link to the Past",
       },
       {
@@ -117,99 +117,99 @@ $player_head = <<<EOF
         name: "Mac OSX v1.5 (Aqua)",
       },
       {
-        url: "kptheme/webamp/skins/MEDITERRANEO.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/MEDITERRANEO.wsz",
         name: "Mediterraneo",
       },
       {
-        url: "kptheme/webamp/skins/Milermog.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/Milermog.wsz",
         name: "Milermog",
       },
       {
-        url: "kptheme/webamp/skins/NoOneLivesFFULL.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/NoOneLivesFFULL.wsz",
         name: "No One Lives",
       },
       {
-        url: "kptheme/webamp/skins/Nucleo_NLog_v102_.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/Nucleo_NLog_v102_.wsz",
         name: "Nucleo",
       },
       {
-        url: "kptheme/webamp/skins/Ohm.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/Ohm.wsz",
         name: "Ohm",
       },
       {
-        url: "kptheme/webamp/skins/Paper-Amp.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/Paper-Amp.wsz",
         name: "Paper Amp",
       },
       {
-        url: "kptheme/webamp/skins/RatchetsGame.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/RatchetsGame.wsz",
         name: "Ratchets",
       },
       {
-        url: "kptheme/webamp/skins/SD_-_White_Edition.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/SD_-_White_Edition.wsz",
         name: "SD - White Edition",
       },
       {
-        url: "kptheme/webamp/skins/SFERA.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/SFERA.wsz",
         name: "SFERA",
       },
       {
-        url: "kptheme/webamp/skins/sonympfx3lcdv111.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/sonympfx3lcdv111.wsz",
         name: "Sony MP3 FX",
       },
       {
-        url: "kptheme/webamp/skins/SummerBreeze.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/SummerBreeze.wsz",
         name: "Summer Breeze",
       },
       {
-        url: "kptheme/webamp/skins/Template_Amp.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/Template_Amp.wsz",
         name: "Template Amp",
       },
       {
-        url: "kptheme/webamp/skins/The_Universes_Beauty.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/The_Universes_Beauty.wsz",
         name: "The Universe's Beauty",
       },
       {
-        url: "kptheme/webamp/skins/VItalIz0r_0rAngE.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/VItalIz0r_0rAngE.wsz",
         name: "VItalIz0r 0rAngE",
       },
       {
-        url: "kptheme/webamp/skins/Waiora_3000.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/Waiora_3000.wsz",
         name: "Waiora 3000",
       },
       {
-        url: "kptheme/webamp/skins/WEEZER.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/WEEZER.wsz",
         name: "Weezer",
       },
       {
-        url: "kptheme/webamp/skins/Winamp_For_Windows_XP.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/Winamp_For_Windows_XP.wsz",
         name: "Windows XP",
       },
       {
-        url: "kptheme/webamp/skins/Winamp_XP_SP1_Olive.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/Winamp_XP_SP1_Olive.wsz",
         name: "Windows XP SP1 Olive",
       },
       {
-        url: "kptheme/webamp/skins/Winamp_XP_SP1_Silver.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/Winamp_XP_SP1_Silver.wsz",
         name: "Windows XP SP1 Silver",
       },
       {
-        url: "kptheme/webamp/skins/Winamp_XP.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/Winamp_XP.wsz",
         name: "Winamp XP",
       },
       {
-        url: "kptheme/webamp/skins/WINTENDO.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/WINTENDO.wsz",
         name: "Wintendo",
       },
       {
-        url: "kptheme/webamp/skins/winXP.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/winXP.wsz",
         name: "WinXP",
       },
       {
-        url: "kptheme/webamp/skins/XPAmp11.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/XPAmp11.wsz",
         name: "XPAmp11",
       },
       {
-        url: "kptheme/webamp/skins/zeus_v2_anoxia.wsz",
+        url: kplaylist_url + "kptheme/webamp/skins/zeus_v2_anoxia.wsz",
         name: "Zeus V2 Anoxia",
       },
     ],
