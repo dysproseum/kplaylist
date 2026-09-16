@@ -181,6 +181,11 @@ window.addEventListener("beforeunload", function(e) {
   window.parent.parentUnloadRequest(id);
 });
 
+// Bubble up z-index events to the iframe browser.
+window.addEventListener("focus", function(e) {
+  window.parent.parentFocus(id);
+});
+
 // Get theme.
 window.getTheme = function() {
   return theme;
