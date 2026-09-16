@@ -1,5 +1,6 @@
 /* webamp kplaylist theme */
 
+var id = '';
 let childCallbacks = [];
 
 function getAllTracks() {
@@ -88,7 +89,15 @@ const callback = (mutationList, observer) => {
   }
 };
 
+var id = '';
 window.addEventListener("load", function() {
+
+  console.log("kplaylist webamp load");
+  if (id == '') {
+    // Gets unique id for this iframe.
+    id = window.parent.parentLoadRequest();
+  }
+
   if (!parent.getPlayerCallbacks) {
     var msg = document.getElementById("kptheme-message");
     msg.hidden = false;
@@ -164,6 +173,12 @@ window.addEventListener("load", function() {
   // Later, you can stop observing
   // observer.disconnect();
 
+});
+
+// Send unload event to start loading animation.
+window.addEventListener("beforeunload", function(e) {
+  console.log("kplaylist webamp unload");
+  window.parent.parentUnloadRequest(id);
 });
 
 // Get theme.
